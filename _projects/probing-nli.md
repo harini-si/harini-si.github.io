@@ -6,5 +6,4 @@ permalink: /projects/probing-nli
 venue: "BITS Pilani"
 location: India
 ---
-Developing a model to perform code search, syntax error detection and code repair on different programming
-languages.
+Trained a classifier model on SNLI Dataset to determine the inference relationship between the sentence pairs and performed probing on thee model's layers for POS tags.

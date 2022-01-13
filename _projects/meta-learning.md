@@ -3,9 +3,6 @@ title: "Meta learning library using JAX"
 collection: projects
 type: "Contributor"
 permalink: /projects/meta-learning
-venue: ""
-date: 2021-01-01
-location: ""
+
 ---
-Developing a model to perform code search, syntax error detection and code repair on different programming
-languages.
+This project aims to implement various Meta Learning methods and benchmark them on few-shot learning tasks. The goal is to build a modular extensible and well documented library of these methods in JAX.
