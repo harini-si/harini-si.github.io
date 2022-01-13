@@ -2,7 +2,7 @@
 title: "CTE Instructor-Introduction and Applications of Machine Learning"
 collection: teaching
 type: "Introductory course"
-permalink: /teaching/CTE Instructor-Introduction and Applications of Machine Learning
+permalink: /teaching/cte-course
 venue: ""
 date: 2021
 location: ""
