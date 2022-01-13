@@ -1,11 +1,10 @@
 ---
-title: "Source code synthesis"
+title: "Comparative study of learning approaches"
 collection: projects
-type: "Industry project"
-permalink: /projects/source-code-synthesis
+type: "Independent project"
+permalink: /projects/comparative-study
 venue: ""
-date: Jan 2022
+date: Aug 2021
 location: ""
 ---
-Developing a model to perform code search, syntax error detection and code repair on different programming
-languages.
+

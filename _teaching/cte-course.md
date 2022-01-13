@@ -4,7 +4,7 @@ collection: teaching
 type: "Introductory course"
 permalink: /teaching/cte-course
 venue: ""
-date: 2021
+date: 2021-01-01
 location: ""
 ---
 
