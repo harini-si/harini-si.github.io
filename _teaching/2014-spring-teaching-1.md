@@ -1,14 +1,14 @@
 ---
-title: "Teaching experience 1"
+title: "CTE Instructor-Introduction and Applications of Machine Learning"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Introductory course"
+permalink: /teaching/CTE Instructor-Introduction and Applications of Machine Learning
+venue: ""
+date: 2021
+location: ""
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+The course intends to help students with no experience in machine learning take their first steps in the field. We will start off with the basic Machine learning theory and look into essential tools needed for ML; libraries like numpy and pandas. Then we will proceed to teach the students about various machine learning algorithms, the maths behind it. With the help of scikit learn, the students will learn how to implement various models as well.
 
 Heading 1
 ======
