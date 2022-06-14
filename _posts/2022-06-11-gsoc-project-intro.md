@@ -6,8 +6,6 @@ tags:
   - 'GSoC'
 ---
 
-# GSoC Introduction Post
-
 
 [![GSoC](https://beagleboard.org/blog/wp-content/uploads/2018/09/GSoC.png)](https://beagleboard.org/blog/2018-09-11-gsoc-2018)
 
