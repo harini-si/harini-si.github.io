@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-* [Link to my CV](/files/CV-Jan-2022.pdf){:target="_blank"}.
+* [Link to my CV](/files/Harini_CV.pdf){:target="_blank"}.
