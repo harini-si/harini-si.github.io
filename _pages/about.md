@@ -12,7 +12,7 @@ Hi! 👋
 
 I am S. I. Harini, a Software Engineer at Adobe. I graduated from [**BITS Pilani, K.K. Birla Goa Campus**](https://www.bits-pilani.ac.in/goa/), with a Bachelor of Engineering in Computer Science and a minor in Data Science.
 
-My research interests broadly lie in **Multimodal Machine Learning** and **Natural Language Processing**. During my undergraduate studies, I completed my thesis at the [**Autonomous Agents Lab, Stanford University**](https://aal.stanford.edu/), under the supervision of [**Dr. Nick Haber**](https://profiles.stanford.edu/nicholas-haber), where I focused on generating simulations to train intelligent agents.
+My research interests broadly lie in **Multimodal Machine Learning** and **Natural Language Processing**. During my undergraduate studies, I completed my thesis at the [**Autonomous Agents Lab, Stanford University**](https://www.autonomousagents.stanford.edu/), under the supervision of [**Dr. Nick Haber**](https://profiles.stanford.edu/nicholas-haber), where I focused on generating simulations to train intelligent agents.
 
 Before my current role at Adobe, I interned at the [**Adobe Media and Data Science Research Lab**](https://research.adobe.com/media-and-data-science-research/), where I worked with Somesh Singh and Yaman Kumar on predicting and modeling different types of behavior in response to given types of content using large language models (LLMs).
 
