@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Harini's profile"
 title_separator          : "-"
 name                     : &name "S I Harini"
-description              : &description "CS undergraduate"
+description              : &description "Software Engineer at Adobe"
 url                      : https://harini-si.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "harini-si/harini-si.github.io"
@@ -85,7 +85,7 @@ author:
   name             : "S I Harini"
   avatar           : "profile.jpeg"
   bio              : "CS Undergraduate, BITS Pilani"
-  location         : "Goa,India"
+  location         : "Noida,India"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=Q35ix-YAAAAJ"
