@@ -4,7 +4,7 @@ collection: publications
 excerpt: ''
 permalink: /publication/factorsim
 date: 2024-05-22
-venue: 'Under Review'
+venue: 'NeurIPS 2024'
 website: 'https://cs.stanford.edu/~sunfanyun/factorsim/'
 authors: Fan-Yun Sun, Harini S I, Angela Yi, Yihan Zhou, Alex Zook, Jonathan Tremblay, Logan Cross, Jiajun Wu, Nick Haber 
 header:
