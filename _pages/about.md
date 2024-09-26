@@ -21,7 +21,7 @@ At BITS, I had the opportunity to work on Neuro-Symbolic Learning problems with 
 I am an active member of the **Society for Artificial Intelligence and Deep Learning (SAiDL)** at BITS Goa, where I participate in collaborative projects and mentor fellow students.
 
 ## **NEWS** 📰
-- **[Sept 2024]** 📄 **FactorSim: Generative Simulation via Factorized Representation** accepted at NeurIPS2024!!
+- **[Sept 2024]** 📄 **FactorSim: Generative Simulation via Factorized Representation** accepted at NeurIPS 2024!!
 - **[July 2024]** 🎉 Started full-time at Adobe as **Member of Technical Staff**.
 - **[May 2024]** 🎓 Graduated!!
 - **[Aug 2023]** 🚀 Started my undergraduate thesis at **Autonomous Agents Lab, Stanford University** under the supervision of **Dr. Nick Haber**.
