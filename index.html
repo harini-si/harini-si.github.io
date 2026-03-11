@@ -75,19 +75,75 @@
 
       background-color: #ffffd0;
     }
+
+    /* Navigation styles */
+    .navbar {
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 10px 0;
+    }
+
+    .navbar-brand {
+      font-size: 24px;
+      color: #1772d0 !important;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+      color: #333;
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 16px;
+      margin: 0 10px;
+      transition: color 0.2s ease-in-out;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+      color: #1772d0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
   </style>
   <link rel="icon" type="image/png" href="seal_icon.png">
   <title>S I Harini</title>
   <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="./utils.js"></script>
 </head>
 
 <body>
-  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="font-family: 'Lato', Verdana, Helvetica, sans-serif; font-weight: 700;">S I Harini</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#news">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#research">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/harini-si/awesome-llm-persuasion" target="_blank">Reading List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0" style="margin-top: 80px;">
     <tr>
       <td>
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="about">
           <tr>
             <td width="67%" valign="middle">
               <p align="center">
@@ -118,7 +174,7 @@
 
 
         <!-- News -->
-        <table width="120%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <table width="120%" align="center" border="0" cellspacing="0" cellpadding="20" id="news">
           <tr>
             <td width="60%" valign="middle">
               <heading>News</heading>
@@ -140,6 +196,14 @@
         </table>
         
         <!-- Researches -->
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="research">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Research</heading>
+            </td>
+          </tr>
+        </table>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
@@ -258,7 +322,17 @@
               others: null
             });
           </script>
-          
+
+        <!-- Blog -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="blog">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Blog</heading>
+              <p style="margin-top: 10px;">Coming soon...</p>
+            </td>
+          </tr>
+        </table>
+
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-49ED5YFC5T"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -268,8 +342,31 @@
   gtag('config', 'G-49ED5YFC5T');
 </script>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          const navbarHeight = document.querySelector('.navbar').offsetHeight;
+          const targetPosition = target.offsetTop - navbarHeight;
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+          // Close mobile menu after clicking
+          const navbarCollapse = document.querySelector('#navbarNav');
+          if (navbarCollapse.classList.contains('show')) {
+            bootstrap.Collapse.getInstance(navbarCollapse).hide();
+          }
+        }
+      });
+    });
+  </script>
 
-        
+
 </body>
 
 </html>
