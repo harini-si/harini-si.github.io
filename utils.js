@@ -13,9 +13,13 @@ function createProjectElement(id, project){
     if (project.others == null)
         project.others = "";
 
+    title_html = project.paper_url
+      ? `<a href="${project.paper_url}"><papertitle>${project.title}</papertitle></a>`
+      : `<papertitle>${project.title}</papertitle>`
+
     html_img = `<img src='${project.image}' style="max-width: 200px"></div></div>`
     html_txt = `<p>
-      <a href="${project.paper_url}"><papertitle>${project.title}</papertitle></a>
+      ${title_html}
       <br>
       ${project.authors}
       <br>
